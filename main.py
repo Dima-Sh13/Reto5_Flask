@@ -15,7 +15,7 @@ def index():
         return buscar(request.form)
 
 
-
+@app.route("/")
 def buscar(dni):
     all_clients =  []
     client = []
@@ -34,7 +34,3 @@ def buscar(dni):
 
 
 
-"""
-if i[2] == request.form:
-datos_cliente = i
-"""
